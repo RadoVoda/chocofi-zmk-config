@@ -26,19 +26,19 @@
 
         layer1 {
             bindings = <
-  &kp ESCAPE    &kp PAGE_DOWN  &kp UP        &kp PAGE_UP  &kp BACKSPACE      &kp EXCL   &kp AT          &kp HASH          &kp DLLR           &kp PRCNT
-  &kp TAB       &kp LEFT       &kp DOWN      &kp RIGHT    &kp DELETE         &kp QMARK  &kp AMPS        &kp LPAR          &kp RPAR           &kp CARET
-  &kp LEFT_ALT  &kp END        &kp LEFT_GUI  &kp HOME     &kp PRINTSCREEN    &kp APOS   &kp BACKSLASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
+  &kp ESCAPE    &kp PAGE_DOWN  &kp LEFT_GUI  &kp PAGE_UP  &kp BACKSPACE      &kp EXCL   &kp AT          &kp HASH          &kp DLLR           &kp PRCNT
+  &kp TAB       &kp LEFT       &kp UP        &kp RIGHT    &kp DELETE         &kp QMARK  &kp AMPS        &kp LPAR          &kp RPAR           &kp CARET
+  &kp LEFT_ALT  &kp END        &kp DOWN      &kp HOME     &kp PRINTSCREEN    &kp APOS   &kp BACKSLASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
                                &trans        &trans       &kp SPACE          &kp ENTER  &kp LEFT_SHIFT  &kp LEFT_CONTROL
             >;
         };
 
         layer2 {
             bindings = <
-  &bt BT_CLR    &kp F1  &kp F2   &kp F3   &kp F4       &kp N7     &kp N8          &kp N9            &kp ASTERISK  &kp KP_SLASH
-  &bt BT_NXT    &kp F5  &kp F6   &kp F7   &kp F8       &kp N4     &kp N5          &kp N6            &kp KP_PLUS   &kp KP_MINUS
-  &bt LEFT_ALT  &kp F9  &kp F10  &kp F11  &kp F12      &kp N1     &kp N2          &kp N3            &kp KP_DOT    &kp EQUAL
-                      &trans   &trans   &kp SPACE      &kp N0     &kp LEFT_SHIFT  &kp LEFT_CONTROL
+  &bt BT_CLR    &kp F1  &kp F2   &kp F3   &kp F4       &kp KP_N7     &kp KP_N8       &kp KP_N9         &kp ASTERISK  &kp KP_SLASH
+  &bt BT_NXT    &kp F5  &kp F6   &kp F7   &kp F8       &kp KP_N4     &kp KP_N5       &kp KP_N6         &kp KP_PLUS   &kp KP_MINUS
+  &bt LEFT_ALT  &kp F9  &kp F10  &kp F11  &kp F12      &kp KP_N1     &kp KP_N2       &kp KP_N3         &kp KP_DOT    &kp EQUAL
+                      &trans   &trans   &kp SPACE      &kp KP_N0     &kp LEFT_SHIFT  &kp LEFT_CONTROL
             >;
         };
     };
