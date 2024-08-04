@@ -37,8 +37,8 @@
             bindings = <
   &bt BT_CLR    &kp F1  &kp F2   &kp F3   &kp F4       &kp KP_N7     &kp KP_N8       &kp KP_N9         &kp ASTERISK  &kp KP_SLASH
   &bt BT_NXT    &kp F5  &kp F6   &kp F7   &kp F8       &kp KP_N4     &kp KP_N5       &kp KP_N6         &kp KP_PLUS   &kp KP_MINUS
-  &bt LEFT_ALT  &kp F9  &kp F10  &kp F11  &kp F12      &kp KP_N1     &kp KP_N2       &kp KP_N3         &kp KP_DOT    &kp EQUAL
-                      &trans   &trans   &kp SPACE      &kp KP_N0     &kp LEFT_SHIFT  &kp LEFT_CONTROL
+  &kp LEFT_ALT  &kp F9  &kp F10  &kp F11  &kp F12      &kp KP_N1     &kp KP_N2       &kp KP_N3         &kp KP_DOT    &kp EQUAL
+                        &trans   &trans   &kp SPACE    &kp KP_N0     &kp LEFT_SHIFT  &kp LEFT_CONTROL
             >;
         };
     };
