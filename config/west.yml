@@ -1,11 +1,16 @@
 manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: custom-nice-view
+      url-base: https://github.com/radovoda
   projects:
     - name: zmk
-      url: https://github.com
-      revision: v0.3
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: nice-view-mod
-      url: https://github.com
+      remote: custom-nice-view
       revision: main
   self:
     path: config
