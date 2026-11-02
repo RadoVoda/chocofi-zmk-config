@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com
+      url-base: ps://github.com/zmkfirmware
     - name: custom-nice-view
       url-base: https://github.com/radovoda
   projects:
